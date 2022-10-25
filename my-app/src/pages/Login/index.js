@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import { Container } from "../../styles/GlobalStyles";
-import { Titulo, Paragrafo } from "./styled";
+import { Container } from '../../styles/GlobalStyles';
+import { Titulo, Paragrafo } from './styled';
 
 export default function Login() {
     return (

@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { primaryColor } from "../../config/colors";
+import styled from 'styled-components';
+import { primaryColor } from '../../config/colors';
 
 export const Nav = styled.nav`
     background: ${primaryColor};
@@ -8,7 +8,7 @@ export const Nav = styled.nav`
     justify-content: center;
     align-items: center;
 
-    p {
+    a {
         color: #fff;
         margin: 0 10px 0 0;
         font-weight: bold;
