@@ -13,7 +13,7 @@ export default function Login() {
     const dispatch = useDispatch();
 
     function handleClick() {
-        dispatch(actions.clicaBotao());
+        dispatch(actions.clicaBotaoRequest());
     }
 
     return (
